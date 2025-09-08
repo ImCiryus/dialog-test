@@ -2,3 +2,7 @@ name: DialogTest
 version: '1.0-SNAPSHOT'
 main: com.imciryus.dialogTest.DialogTest
 api-version: '1.21'
+
+commands:
+  testdiag:
+    description: 'A command'
