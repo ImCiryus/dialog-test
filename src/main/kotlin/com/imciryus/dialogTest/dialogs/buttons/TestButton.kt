@@ -9,12 +9,12 @@ class TestButton() {
 
     companion object {
         //val label: Component, val tooltip: Component?, val width: Int, val action: DialogAction
-        val action: DialogAction = DialogAction.staticAction(ClickEvent.runCommand("kill"))
+        val action: DialogAction = DialogAction.staticAction(ClickEvent.runCommand("me \"test\""))
 
         val b: ActionButton = ActionButton.create(
             Component.text("Test"),
             null,
-            10,
+            40,
             action
         )
     }
